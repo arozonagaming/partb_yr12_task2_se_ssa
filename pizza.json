@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Pepperoni Pizza",
+        "description": "A classic pizza topped with pepperoni slices and mozzarella cheese.",
+        "image": "static/images/pepperoni.jpg",
+        "price": 15.99
+    },
+    {
+        "name": "Margherita Pizza",
+        "description": "A simple and delicious pizza with fresh tomatoes, mozzarella, and basil.",
+        "image": "static/images/veggie.jpg",
+        "price": 13.99
+    },
+    {
+        "name": "BBQ Chicken Pizza",
+        "description": "Topped with BBQ sauce, grilled chicken, red onions, and cilantro.",
+        "image": "static/images/veggie.jpg",
+        "price": 16.99
+    },
+    {
+        "name": "Veggie Supreme",
+        "description": "Loaded with mushrooms, bell peppers, onions, olives, and fresh spinach.",
+        "image": "static/images/pepperoni.jpg",
+        "price": 14.99
+    }
+]
